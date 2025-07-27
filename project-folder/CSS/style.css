@@ -1,0 +1,162 @@
+body {
+            margin: 0;
+            padding: 20px;
+            font-family: "Sriracha", cursive;
+            background: url('https://i.makeagif.com/media/8-09-2022/GuqYPq.gif') no-repeat center center fixed;
+            background-size: cover;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333333;
+        }
+        .sriracha-regular {
+            font-family: "Sriracha", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 5px 5px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+            max-width: 500px;
+            width: 90%;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: 0055a5;
+            margin-bottom: 25px;
+            font-size: 2em;
+        }
+
+        .links a {
+            display: block;
+            background-color: #6c5ce7;
+            color: white;
+            padding: 15px;
+            margin: 15px auto;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: 600;
+            box-shadow: 0 5px 15px rgba(108, 92, 231, 0.3);
+            transition: all 0.3s ease;
+            max-width: 400px;
+        }
+
+        .links a:hover {
+            background-color: #341f97;
+            box-shadow: 0 8px 20px rgba(52, 31, 151, 0.4);
+        }
+
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 1.6em;
+            }
+
+            .links a {
+                font-size: 1em;
+                padding: 12px;
+            }
+
+            .profile-pic {
+                width: 120px;
+                height: 120px;
+            }
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .gallery img {
+            width: 160px;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.5);
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Sriracha', cursive;
+        }
+                        table {
+            border-collapse: collapse;
+            width: 100%;
+            table-layout: fixed;
+            margin-top: 10px;
+            background-color: #fff;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            overflow: hidden;
+            font-family: "Sriracha", cursive;
+            }
+
+            thead {
+            background-color: #f0f0f0;
+            }
+
+            th, td {
+            border: 1px solid #ccc;
+            padding: 8px 4px;
+            font-size: 14px;
+            text-align: center;
+            vertical-align: middle;
+            word-wrap: break-word; 
+            }
+
+            th {
+            font-weight: bold;
+            background-color: #e2e2e2;
+            color: #333;
+            }
+
+
+            .slot {
+            background-color: #a2d5f2; 
+            }
+
+            .slot2 {
+            background-color: #f2c2a2; 
+            }
+
+            .slot3 {
+            background-color: #b2f2a2; 
+            }
+
+
+            @media (max-width: 768px) {
+            table {
+                font-size: 12px;
+            }
+
+            th, td {
+                padding: 6px 2px;
+            }
+        }
